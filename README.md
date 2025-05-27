@@ -33,7 +33,14 @@ This initial MVP is built with [Anchor](https://github.com/coral-xyz/anchor) and
 ### ✅ Fulfill Offer
 - A **taker** can fulfill the offer, marking it as completed.
 - **Note:** Fiat settlement is done off-chain. No escrow logic implemented yet.
+# 🧪 Phase 2 – Planned Features
 
+- [ ] **Add Escrow Logic**: Secure locking of stablecoins before trade confirmation  
+- [ ] 🔁 **Secure Transfers**: P2P exchange between USDC/USDT users  
+- [ ] 📈 **On-Chain Analytics**: Record trade volume, activity, and usage metrics  
+- [ ] 🧪 **Simulated Devnet Testing**: Emulate real-world P2P flow with test users  
+- [ ] 🌐 **Landing Page**: Educational website tailored to LATAM remittance users  
+- [ ] 📊 **Data Dashboard**: Basic usage stats to demonstrate traction
 ---
 
 ## 🔧 Technical Overview
@@ -59,3 +66,5 @@ pub fn fulfill_offer(ctx: Context<FulfillOffer>) -> Result<()> {
     offer.is_fulfilled = true;
     Ok(())
 }
+
+
