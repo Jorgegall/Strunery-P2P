@@ -1,0 +1,38 @@
+{
+  "transactions": [
+    {
+      "name": "create_offer",
+      "instructions": [
+        {
+          "program": "strunery",
+          "method": "create_offer",
+          "args": {
+            "offered_amount": 100000000,
+            "requested_amount": 400000,
+            "offered_currency": "USD",
+            "requested_currency": "COP",
+            "offered_token": "USDC"
+          },
+          "accounts": {
+            "offer": "<GENERATE_NEW>",
+            "maker": "<SIGNER>",
+            "system_program": "11111111111111111111111111111111"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fulfill_offer",
+      "instructions": [
+        {
+          "program": "strunery",
+          "method": "fulfill_offer",
+          "args": {},
+          "accounts": {
+            "offer": "<PREVIOUS_OFFER_ACCOUNT>"
+          }
+        }
+      ]
+    }
+  ]
+}
