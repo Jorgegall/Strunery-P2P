@@ -1,4 +1,4 @@
-# 🪙 Strunery – P2P Stablecoin Exchange on Solana (Phase 1)
+# Strunery – P2P Stablecoin Exchange on Solana (Phase 1)
 
 **Strunery** is a decentralized P2P protocol built on **Solana** that facilitates trust-minimized stablecoin remittances. It is designed for the Latin American diaspora to seamlessly exchange USD and CAD-backed stablecoins (e.g., USDC/USDT) into Colombian Pesos (COP) using on-chain offer matching and off-chain fiat settlement.
 
